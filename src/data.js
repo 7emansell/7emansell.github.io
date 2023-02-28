@@ -32,3 +32,16 @@ export const projects = [
         link: "https://github.com/7emansell/musicbrainzscraper",
     },
 ]
+
+export const skills = [
+    { title: "Javascript" },
+    { title: "React" },
+    { title: "Typescript" },
+    { title: "Python" },
+    { title: "SQL" },
+    { title: "GraphQL" },
+    { title: "Laravel" },
+    { title: "Docker" },
+    { title: "Tableau" },
+]
+
