@@ -21,7 +21,7 @@ export default function About() {
                     </p>
                     <br />
                     <p className="text-lg w-4/5 text-justify mx-auto">
-                        Currently, I'm looking for software engineering or technical PM roles. Feel free to get in touch :)
+                        Currently, I'm looking for software engineering or product management roles. Feel free to get in touch :)
                     </p>
 
                 </div>
