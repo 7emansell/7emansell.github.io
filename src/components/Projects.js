@@ -10,32 +10,33 @@ export default function Projects() {
                         Projects
                     </h1>
                 </div>
-                <div className="flex flex-wrap">
-                    {projects.map((project) => (
-                        <a
-                            href={project.link}
-                            key={project.image}
-                            className="sm:w-1/2 w-100 p-4">
-                            <div className="flex relative">
-                                <img
-                                    alt="gallery"
-                                    className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={project.image}
-                                />
-                                <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-[#379683] bg-[#2b7969] opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-[#5cdb95] mb-1">
-                                        {project.subtitle}
-                                    </h2>
-                                    <h1 className="title-font text-lg font-medium text-[#edf5e1] mb-3">
-                                        {project.title}
-                                    </h1>
-                                    <p className="leading-relaxed">{project.description}</p>
-                                </div>
-                            </div>
-                        </a>
-                    ))}
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    {projects.map((project) => (
+        <a
+            href={project.link}
+            key={project.image}
+            className="relative group block aspect-w-2 aspect-h-3 overflow-hidden"
+        >
+                <img
+                    alt={project.title}
+                    src={project.image}
+                    className="object-cover object-center w-full h-full"
+                />
+            <div className="absolute inset-0 bg-[#2b7969] opacity-0 hover:opacity-100 transition duration-300 ease-in-out ">
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-20">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-[#5cdb95] mb-1">
+                        {project.subtitle}
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-[#edf5e1] mb-3">
+                        {project.title}
+                    </h1>
+                    <p className="leading-relaxed ">{project.description}</p>
                 </div>
             </div>
+        </a>
+    ))}
+</div>
+                </div>
         </section>
     );
 }

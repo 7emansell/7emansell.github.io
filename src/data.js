@@ -3,7 +3,7 @@ export const projects = [
         title: "Dillo Day App",
         subtitle: "React Native and Expo",
         description:
-            "The Dillo app (available on App Store and Google Play) provides the lineup, map, and announcements for Northwestern University's annual music festival.",
+            "The Dillo app (available on App Store and Google Play) provides the lineup, map, and announcements for Northwestern University's annual music festival. Led app team of 4 developers in 2023.",
         image: "./dillo.png",
         link: "https://apps.apple.com/us/app/dillo-day-2023/id6447146706",
     },
@@ -11,7 +11,7 @@ export const projects = [
         title: "Mealship",
         subtitle: "React, Express.js, and PostgreSQL",
         description:
-            "Winning project for eHacks 2022. Prototype allows users to donate a meal to someone in their community.",
+            "Winning project for eHacks 2022 (1st of 40 teams). Prototype allows users to donate a meal to someone in their community.",
         image: "./mealship.png",
         link: "https://github.com/7emansell/mealship",
     },

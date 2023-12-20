@@ -10,9 +10,9 @@ export default function Skills() {
                         Skills and technologies
                     </h1>
                 </div>
-                <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                <div className="flex flex-wrap lg:w-5/5 sm:mx-auto sm:mb-2 -mx-2">
                     {skills.map((skill) => (
-                        <div key={skill} className="p-2 sm:w-1/3 w-1/3">
+                        <div key={skill} className="p-1 sm:w-1/3 w-1/3">
                             <div className="bg-[#05386b] flex p-4 h-full justify-center items-center">
                                 <span className="title-font font-medium text-[#edf5e1]">
                                     {skill.title}
