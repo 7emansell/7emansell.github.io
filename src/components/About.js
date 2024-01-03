@@ -8,10 +8,10 @@ export default function About() {
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-[#05386b]">
                         About me
                     </h1>
-                    <p className="text-lg w-4/5 text-justify-center mx-auto">
-                        I'm Emma, and I'm a software engineer. I graduated from Northwestern in 2023, and am currently based in NYC.
+                    <p className="text-lg  text-justify-center mx-auto">
+                        I'm Emma, and I'm a software engineer. I graduated from Northwestern in 2023, and I'm currently based in NYC.
                  </p>
-                    <p className="text-lg w-4/5 text-justify-center mx-auto">
+                    <p className="text-lg  text-justify-center mx-auto">
                         I mainly work on the front end, and have extensive experience with React (and React Native) but I'm always looking to learn new technologies!
                     </p>
 
