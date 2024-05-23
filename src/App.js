@@ -9,11 +9,11 @@ import Skills from './components/Skills';
 
 export default function App() {
   return (
-    <main className="text-[#05386B] bg-[#5cdb95] body-font">
+    <main className="text-[#05386B] bg-[#edf5e1] body-font">
       <Navbar />
       <Header />
       <Projects />
-      <Skills />
+      {/* <Skills /> */}
       <About />
       <Contact />
       <Footer />

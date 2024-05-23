@@ -3,7 +3,7 @@ export const projects = [
         title: "Dillo Day App",
         subtitle: "React Native and Expo",
         description:
-            "The Dillo app (available on App Store and Google Play) provides the lineup, map, and announcements for Northwestern University's annual music festival. Led app team of 4 developers in 2023.",
+            "The Dillo Day app provides the lineup, map, and announcements for Northwestern University's annual music festival. Led app team of 4 developers in 2023.",
         image: "./dillo.png",
         link: "https://apps.apple.com/us/app/dillo-day-2023/id6447146706",
     },
