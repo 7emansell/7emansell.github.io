@@ -8,7 +8,7 @@ export default function Header() {
                     <h1 className="title-font text-6xl lg:text-7xl mb-4 font-medium text-[#05386b]">
                         Hi! I'm Emma,
                     </h1>
-                    <p className="title-font text-2xl lg:text-4xl w-5/6 mx-auto">a front-end software engineer focused on building accessible, beautiful interfaces.</p>
+                    <p className="title-font text-2xl lg:text-4xl w-5/6 mx-auto">a software engineer focused on building accessible, beautiful interfaces.</p>
                 </div>
                 <div className="flex flex-col w-full mt-20 mb-10">
                     <p className="title-font text-xl lg:text-2xl">Get in touch 👉 <a className="text-[#2b7969] underline hover:text-[#5cdb95]" href="mailto:emilyjmansell@gmail.com">emilyjmansell@gmail.com</a></p>

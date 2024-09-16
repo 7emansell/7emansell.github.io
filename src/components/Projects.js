@@ -7,7 +7,7 @@ export default function Projects() {
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-10">
                     <h1 className="text-3xl font-medium title-font text-[#edf5e1]">
-                        Personal projects
+                        Projects
                     </h1>
                 </div>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
