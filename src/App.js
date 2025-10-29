@@ -10,9 +10,9 @@ import NewAbout from "./components/NewAbout";
 
 export default function App() {
   return (
-    <main className="text-[#05386B] bg-[#f3f7ed] body-font">
-      {/* <Navbar />
-      <Header />
+    <main className="text-[#05386B] bg-[#fdfffa] body-font">
+      <Navbar />
+      {/* <Header />
       <Projects />
       <About />
       <Contact />
