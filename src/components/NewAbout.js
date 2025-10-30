@@ -2,7 +2,7 @@ export default function NewAbout() {
   return (
     <section
       id="about"
-      className="text-[#05386b] bg-[#fdfffa] py-16 px-12 lg:px-24 scroll-mt-20"
+      className="text-[#05386b] bg-[#fdfffa] md:pt-12 lg:pt-32 px-12 lg:px-24 scroll-mt-20"
     >
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl mx-auto">
         <div className="flex-shrink-0 w-full md:w-auto flex justify-center">
