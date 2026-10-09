@@ -22,8 +22,8 @@ export default function About() {
             interfaces.
           </p>
           <p className="text-lg leading-relaxed">
-            I build Next.js web platforms and search APIs that power discovery
-            across library collections at the{" "}
+            I build Next.js web platforms and search APIs that support research
+            and discovery at the{" "}
             <a
               href="https://nypl.org"
               className="text-[#3c8f7e] underline hover:text-[#2c7a6b]"
