@@ -1,25 +1,11 @@
-# My portfolio
+# My website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I also used the npm package [gh-pages](https://github.com/tschaub/gh-pages) and followed this [tutorial](https://github.com/gitname/react-gh-pages) to deploy to Github Pages.
+This [site](https://7emansell.github.io) was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), deploys with [gh-pages](https://github.com/tschaub/gh-pages), and is styled with [Tailwind CSS](https://tailwindcss.com/).
 
-## Scripts
+Run `npm start` to run the app in development mode on [http://localhost:3000](http://localhost:3000). 
 
-In the project directory, you can run:
+Run `npm run deploy` to deploy to Github Pages.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-Other commands:
 
-### `npm test`
-
-### `npm run build`
-
-### `npm run eject`
-
-To deploy to Github Pages (per tutorial above):
-
-### `npm run deploy`

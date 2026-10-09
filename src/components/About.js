@@ -1,46 +1,71 @@
-import React from "react";
-
 export default function About() {
   return (
     <section
       id="about"
-      className="text-[#05386b] bg-[#edf5e1] py-10 body-font scroll-mt-20"
+      className="text-[#05386b] bg-[#fdfffa] md:pt-12 lg:pt-32 px-12 lg:px-24 scroll-mt-20 pb-24"
     >
-      <div className="container px-2 py-10 w-5/6 mx-auto text-center lg:px-40">
-        <h1 className="text-3xl font-medium title-font mb-4 text-[#05386b]">
-          About me
-        </h1>
-        <p className="text-lg text-justify-center">
-          I'm currently a front-end engineer, building websites at the{" "}
-          <a
-            href="https://nypl.org"
-            className="hover:text-[#5cdb95] text-[#2b7969]"
-          >
-            New York Public Library
-          </a>
-          . I graduated from Northwestern University in 2023 after completing
-          SWE internships at the{" "}
-          <a
-            href="https://newyorker.com"
-            className="hover:text-[#5cdb95] text-[#2b7969]"
-          >
-            New Yorker
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://www.fusestudio.net/"
-            className=" hover:text-[#5cdb95] text-[#2b7969]"
-          >
-            FUSE
-          </a>
-          .
-        </p>
-        <br />
-        <p className="text-lg  text-justify-center ">
-          My experience is mainly on the front end, building accessible
-          apps/websites in React, but I'm always excited to learn new
-          technologies and go deeper into the stack.
-        </p>
+      <div className="flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl mx-auto">
+        <div className="flex-shrink-0 w-full md:w-auto flex justify-center">
+          <img
+            src="./headshot.jpeg"
+            alt="Emma headshot"
+            className="w-full md:w-80 h-auto object-cover"
+          />
+        </div>
+
+        <div className="flex flex-col justify-center space-y-4 text-center md:text-left max-w-2xl">
+          <h1 className="title-font text-5xl lg:text-6xl font-semibold mb-2">
+            Hi! I'm Emma,
+          </h1>
+          <p className="text-2xl lg:text-3xl text-[#05386b]/90">
+            a software engineer focused on building accessible, beautiful
+            interfaces.
+          </p>
+          <p className="text-lg leading-relaxed">
+            I build Next.js web platforms and search APIs that power discovery
+            across library collections at the{" "}
+            <a
+              href="https://nypl.org"
+              className="text-[#3c8f7e] underline hover:text-[#2c7a6b]"
+            >
+              New York Public Library
+            </a>
+            .
+          </p>
+          <p className="text-lg leading-relaxed">
+            I graduated from Northwestern University in 2023 after completing
+            SWE internships at the{" "}
+            <a
+              href="https://newyorker.com"
+              className="text-[#3c8f7e] underline hover:text-[#2c7a6b]"
+            >
+              New Yorker
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.fusestudio.net/"
+              className="text-[#3c8f7e] underline hover:text-[#2c7a6b]"
+            >
+              FUSE STEM Labs
+            </a>
+            .
+          </p>
+          <div>
+            <p className="text-lg leading-relaxed">
+              I'm always interested in work that contributes to sustainability,
+              equity, or education.
+            </p>
+            <p className="title-font text-xl">
+              Get in touch 👉{" "}
+              <a
+                className="text-[#3c8f7e] underline hover:text-[#2c7a6b]"
+                href="mailto:emilyjmansell@gmail.com"
+              >
+                emilyjmansell@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
